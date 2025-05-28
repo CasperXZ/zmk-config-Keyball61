@@ -41,11 +41,11 @@
 
         number_layer {
             bindings = <
-&kp F1    &kp F2           &kp F3         &kp F4          &kp F5        &kp F6                               &kp F7  &kp F8     &kp F9     &kp F10           &kp F11            &kp F12
-&kp ESC   &kp N1           &kp N2         &kp N3          &kp N4        &kp N5                               &kp N6  &kp N7     &kp N8     &kp N9            &kp N0             &kp DELETE
-&kp HOME  &kp PAGE_UP      &kp PAGE_DOWN  &kp END         &kp UP_ARROW  &trans                               &trans  &mkp LCLK  &mkp RCLK  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
-&trans    &kp C_VOLUME_UP  &kp C_VOL_DN   &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp PRINTSCREEN  &kp INS  &trans  &trans     &kp MINUS  &kp EQUAL         &kp SQT            &trans
-&trans    &trans           &trans         &trans          &trans        &trans     &trans           &trans   &trans                                          &trans             &trans
+&kp F1     &kp F2           &kp F3         &kp F4          &kp F5        &kp F6                               &kp F7  &kp F8     &kp F9     &kp F10           &kp F11            &kp F12
+&kp GRAVE  &kp N1           &kp N2         &kp N3          &kp N4        &kp N5                               &kp N6  &kp N7     &kp N8     &kp N9            &kp N0             &kp DELETE
+&kp HOME   &kp PAGE_UP      &kp PAGE_DOWN  &kp END         &kp UP_ARROW  &trans                               &trans  &mkp LCLK  &mkp RCLK  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
+&trans     &kp C_VOLUME_UP  &kp C_VOL_DN   &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp PRINTSCREEN  &kp INS  &trans  &trans     &kp MINUS  &kp EQUAL         &kp SQT            &trans
+&trans     &trans           &trans         &trans          &trans        &trans     &trans           &trans   &trans                                          &trans             &trans
             >;
 
             label = "NUM";
