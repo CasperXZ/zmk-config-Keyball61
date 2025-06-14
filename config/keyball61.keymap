@@ -54,11 +54,11 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp F1  &kp F2      &kp F3        &kp F4        &kp F5        &kp F6                  &kp F7          &kp F8          &kp F9           &kp F10    &kp F11       &kp F12
-&trans  &trans      &trans        &trans        &trans        &trans                  &trans          &trans          &trans           &trans     &trans        &trans
-&trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans                  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &mkp MCLK  &kp UP_ARROW  &trans
-&trans  &trans      &trans        &trans        &trans        &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LEFT   &kp DOWN      &kp RIGHT
-&trans  &trans      &trans        &trans        &trans        &trans  &trans  &trans  &trans                                                      &trans        &trans
+&kp F1  &kp F2      &kp F3        &kp F4        &kp F5        &kp F6                      &kp F7          &kp F8          &kp F9           &kp F10    &kp F11       &kp F12
+&trans  &trans      &trans        &trans        &trans        &trans                      &trans          &trans          &trans           &trans     &trans        &trans
+&trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR                  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &mkp MCLK  &kp UP_ARROW  &trans
+&trans  &trans      &trans        &trans        &trans        &trans      &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LEFT   &kp DOWN      &kp RIGHT
+&trans  &trans      &trans        &trans        &trans        &trans      &trans  &trans  &trans                                                      &trans        &trans
             >;
         };
 
@@ -76,11 +76,11 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans          &trans          &trans           &trans           &trans                  &trans         &trans     &trans          &trans     &trans     &trans
-&trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &mkp MCLK        &trans                  &trans         &trans     &msc SCRL_UP    &trans     &trans     &trans
-&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &trans                  &kp PAGE_UP    &mkp LCLK  &msc SCRL_DOWN  &mkp RCLK  &mkp MCLK  &trans
-&trans  &msc SCRL_UP    &msc SCRL_DOWN  &msc SCRL_LEFT   &msc SCRL_RIGHT  &trans  &trans  &trans  &kp PAGE_DOWN  &trans     &trans          &trans     &trans     &trans
-&trans  &trans          &trans          &trans           &trans           &trans  &trans  &trans  &trans                                               &trans     &trans
+&trans  &trans          &trans          &trans           &trans           &trans                  &trans         &trans     &trans          &trans     &trans          &trans
+&trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &mkp MCLK        &trans                  &trans         &trans     &msc SCRL_UP    &trans     &trans          &trans
+&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &trans                  &kp PAGE_UP    &mkp LCLK  &mkp MCLK       &mkp RCLK  &mkp MCLK       &trans
+&trans  &msc SCRL_UP    &msc SCRL_DOWN  &msc SCRL_LEFT   &msc SCRL_RIGHT  &trans  &trans  &trans  &kp PAGE_DOWN  &mkp MB4   &msc SCRL_DOWN  &mkp MB5   &kp LEFT_ARROW  &kp RIGHT
+&trans  &trans          &trans          &trans           &trans           &trans  &trans  &trans  &trans                                               &trans          &trans
             >;
         };
 
@@ -98,11 +98,11 @@
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&kp F1  &kp F2    &kp F3        &kp F4         &kp F5     &kp F6                                   &kp F7  &kp F8     &kp F9     &kp F10           &kp F11            &kp F12
-&trans  &trans    &kp UP_ARROW  &trans         &trans     &trans                                   &trans  &mkp MCLK  &trans     &trans            &trans             &trans
-&trans  &kp LEFT  &kp DOWN      &kp RIGHT      &kp ENTER  &kp BACKSPACE                            &trans  &mkp LCLK  &mkp RCLK  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
-&trans  &kp HOME  &kp PAGE_UP   &kp PAGE_DOWN  &kp END    &trans         &kp PRINTSCREEN  &kp INS  &trans  &trans     &kp MINUS  &kp EQUAL         &kp SQT            &trans
-&trans  &trans    &trans        &trans         &trans     &trans         &trans           &trans   &trans                                          &trans             &trans
+&kp F1  &kp F2    &kp F3        &kp F4         &kp F5     &kp F6                                   &kp F7          &kp F8     &kp F9     &kp F10           &kp F11            &kp F12
+&trans  &trans    &kp UP_ARROW  &trans         &trans     &trans                                   &trans          &mkp MCLK  &trans     &trans            &trans             &trans
+&trans  &kp LEFT  &kp DOWN      &kp RIGHT      &kp ENTER  &kp BACKSPACE                            &trans          &mkp LCLK  &mkp RCLK  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
+&trans  &kp HOME  &kp PAGE_UP   &kp PAGE_DOWN  &kp END    &trans         &kp PRINTSCREEN  &kp INS  &kp SCROLLLOCK  &trans     &kp MINUS  &kp EQUAL         &kp SQT            &trans
+&trans  &trans    &trans        &trans         &trans     &trans         &trans           &trans   &trans                                                  &trans             &trans
             >;
         };
 
